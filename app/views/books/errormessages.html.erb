@@ -1,0 +1,4 @@
+<% if book.errors.any? %>
+<% book.errors.full_messages.each do |message| %>
+<%= message %>
+<% end %>
